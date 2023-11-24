@@ -5,7 +5,7 @@ import { SiFacebook } from "react-icons/si";
 
 function SocialLinks() {
   return (
-    <div className="left-56 p-4 fixed top-2/3 gap-8 text-2xl text-[#558bbd] flex flex-col">
+    <div className="flex-wrap max-xl:left-12 left-56 p-4 fixed top-2/4 gap-8 text-2xl text-[#558bbd] flex flex-col">
       <a
         href="https://www.linkedin.com/in/uvesh-sadeki-a478b7232/"
         target="_blank"
@@ -27,6 +27,7 @@ function SocialLinks() {
       >
         <SiFacebook />
       </a>
+      <span className="w-[3px] h-[2rem] bg-[#558bbd] m-auto"></span>
     </div>
   );
 }

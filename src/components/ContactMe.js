@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Header from "./Header";
 
 function ContactMe() {
   return (
-    <div>ContactMe</div>
-  )
+    <div>
+      <Header />
+    </div>
+  );
 }
 
-export default ContactMe
+export default ContactMe;
